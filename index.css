@@ -1,0 +1,63 @@
+ .main-container{
+     margin: 0;
+    /* padding: 0;  */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 10px solid red; */
+    background-color: lightgray;
+}
+body{
+    margin: 0;
+}
+h1{
+    /* border:05px solid blue ; */
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px; */
+}
+.container{
+    /* border: 5px solid red; */
+    padding: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    /* justify-content: center; */
+    /* align-items: start; */
+    background-color: aqua;
+    color: black;
+    height: 40vh;
+    width: 40vh;
+
+}
+label{
+/* border: 3px solid green; */
+padding: 5px;
+}
+input button{
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #e7e7e7;
+    border: none;
+    /* align-self: center; */
+}
+button{
+    background-color: blue;
+    color: white;
+    /* padding: 8px; */
+}
+a{
+    text-decoration: none;
+    color: dodgerblue;
+}
+.password{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    flex-flow: row wrap;
+}
+.abc{
+    justify-content: space-around;
+}
